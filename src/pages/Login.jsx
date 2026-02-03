@@ -9,7 +9,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const response = await fetch("hhttps://canteenflow-backend-1.onrender.com/api/auth/login", {
+      const response = await fetch("https://canteenflow-backend-1.onrender.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
